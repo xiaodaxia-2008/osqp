@@ -43,3 +43,13 @@ Please report any issues via the [Github issue tracker](https://github.com/oxfor
 ## Numerical benchmarks
 Numerical benchmarks against other solvers are available [here](https://github.com/oxfordcontrol/osqp_benchmarks).
 
+
+# Install
+
+```
+git submodule update --init --recursive
+mkdir Build 
+cd Build
+cmake ..
+make install -j
+```
